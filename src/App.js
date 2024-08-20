@@ -13,7 +13,7 @@ class App extends Component {
   }
 
   renderIntro() {
-    return <Intro _onStartClick={this._onStartClick} title="Welcome To React Quiz Test" />
+    return <Intro _onStartClick={this._onStartClick} title="Welcome To React Quiz App" />
   }
 
   renderQuestion() {

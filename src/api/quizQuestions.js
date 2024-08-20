@@ -4,289 +4,100 @@
 var quizQuestions = [
   // question #1
   {
-    question: 'I am task oriented in order to achieve certain goals.',
+    question: 'What is the purpose of the render() method in a React component?',
     answers: [
       {
         // briggs, color, letter
         type: 'J,Brown,D',
-        content: 'YEP! THAT IS ME!'
+        content: 'To handle user input and update the components state'
       },
       {
         type: ' ',
-        content: 'I HAVE NO IDEA!'
+        content: 'To return the JSX elements that make up the components UI'
       },
       {
         type: 'J,Brown,D,No',
-        content: "NAH, THAT CAN'T BE ME!"
+        content: "To manage the component's lifecycle and handle mounting/unmounting"
       }
     ]
   },
   // question #2
   {
-    question: 'I get bored easily when disscussing abstract concepts.',
+    question: 'What is a React component?',
     answers: [
       {
         // briggs, color, letter
         type: 'N,Green,C',
-        content: 'YEP! THAT IS ME!'
+        content: 'A copy of the real DOM'
       },
       {
         type: ' ',
-        content: 'I HAVE NO IDEA!'
+        content: 'A lightweight in-memory DOM'
       },
       {
         type: 'N,Green,C,No',
-        content: "NAH, THAT CAN'T BE ME!"
+        content: "A slow DOM rendering"
       }
     ]
   },
   // question #3
   {
-    question: 'I like to try things out myself.',
+    question: 'What is the virtual DOM?',
     answers: [
       {
         // briggs, color, letter
         type: 'S,Red,A',
-        content: 'YEP! THAT IS ME!'
+        content: 'A copy of the real DOM'
       },
       {
         type: ' ',
-        content: 'I HAVE NO IDEA!'
+        content: 'A lightweight in-memory DOM'
       },
       {
         type: 'S,Red,A,No',
-        content: "NAH, THAT CAN'T BE ME!"
+        content: "A slow DOM rendering method"
       }
     ]
   },
   // question #4
   {
-    question: "I like to know where I'm going before I leave the house.",
+    question: "What is a React Hook?",
     answers: [
       {
         // briggs, color, letter
         type: 'J,Brown,D',
-        content: 'YEP! THAT IS ME!'
+        content: 'A way to use state in functions '
       },
       {
         type: ' ',
-        content: 'I HAVE NO IDEA!'
+        content: 'A way to use props in classes'
       },
       {
         type: 'J,Brown,D,No',
-        content: "NAH, THAT CAN'T BE ME!"
+        content: "A way to use context in components"
       }
     ]
   },
   // question #5
   {
-    question: 'I believe there is a logical explanation for everything.',
+    question: 'What is the purpose of the ReactDOM.render() method?',
     answers: [
       {
         // briggs, color, letter
         type: 'T,Brown,C',
-        content: 'YEP! THAT IS ME!'
+        content: 'To render components to the DOM'
       },
       {
         type: ' ',
-        content: 'I HAVE NO IDEA!'
+        content: 'To create a new React component'
       },
       {
         type: 'T,Brown,C,No',
-        content: "NAH, THAT CAN'T BE ME!"
+        content: "To update the components state"
       }
     ]
   },
-  // question #6
-  {
-    question: 'I tend to keep my social circle small.',
-    answers: [
-      {
-        // briggs, color, letter
-        type: 'I,Green,C',
-        content: 'YEP! THAT IS ME!'
-      },
-      {
-        type: ' ',
-        content: 'I HAVE NO IDEA!'
-      },
-      {
-        type: 'I,Green,C,No',
-        content: "NAH, THAT CAN'T BE ME!"
-      }
-    ]
-  },
-  // question #7
-  {
-    question: 'I like to share my ideas with others.',
-    answers: [
-      {
-        // briggs, color, letter
-        type: 'E,Blue,B',
-        content: 'YEP! THAT IS ME!'
-      },
-      {
-        type: ' ',
-        content: 'I HAVE NO IDEA!'
-      },
-      {
-        type: 'E,Blue,B,No',
-        content: "NAH, THAT CAN'T BE ME!"
-      }
-    ]
-  },
-  // question #8
-  {
-    question: 'I enjoy using social media.',
-    answers: [
-      {
-        // briggs, color, letter
-        type: 'E,Blue,B',
-        content: 'YEP! THAT IS ME!'
-      },
-      {
-        type: ' ',
-        content: 'I HAVE NO IDEA!'
-      },
-      {
-        type: 'E,Blue,B,No',
-        content: "NAH, THAT CAN'T BE ME!"
-      }
-    ]
-  },
-  // question #9
-  {
-    question: 'I always express concern for others when making decisions.',
-    answers: [
-      {
-        // briggs, color, letter
-        type: 'F,Blue,B',
-        content: 'YEP! THAT IS ME!'
-      },
-      {
-        type: ' ',
-        content: 'I HAVE NO IDEA!'
-      },
-      {
-        type: 'F,Blue,B,No',
-        content: "NAH, THAT CAN'T BE ME!"
-      }
-    ]
-  },
-  // question #10
-  {
-    question: 'I like to try new things.',
-    answers: [
-      {
-        // briggs, color, letter
-        type: 'P,Red,A',
-        content: 'YEP! THAT IS ME!'
-      },
-      {
-        type: ' ',
-        content: 'I HAVE NO IDEA!'
-      },
-      {
-        type: 'P,Red,A,No',
-        content: "NAH, THAT CAN'T BE ME!"
-      }
-    ]
-  },
-  // question #11
-  {
-    question: 'I can easily adjust to a change in decision.',
-    answers: [
-      {
-        // briggs, color, letter
-        type: 'P,Red,A',
-        content: 'YEP! THAT IS ME!'
-      },
-      {
-        type: ' ',
-        content: 'I HAVE NO IDEA!'
-      },
-      {
-        type: 'P,Red,A,No',
-        content: "NAH, THAT CAN'T BE ME!"
-      }
-    ]
-  },
-  // question #12
-  {
-    question: 'I solve problems by working through facts until I understand the problem.',
-    answers: [
-      {
-        // briggs, color, letter
-        type: 'S,Brown,C',
-        content: 'YEP! THAT IS ME!'
-      },
-      {
-        type: ' ',
-        content: 'I HAVE NO IDEA!'
-      },
-      {
-        type: 'S,Brown,C,No',
-        content: "NAH, THAT CAN'T BE ME!"
-      }
-    ]
-  },
-  // question #13
-  {
-    question: 'I rely on logic rather than intuition when making a decision.',
-    answers: [
-      {
-        // briggs, color, letter
-        type: 'T,Green,C',
-        content: 'YEP! THAT IS ME!'
-      },
-      {
-        type: ' ',
-        content: 'I HAVE NO IDEA!'
-      },
-      {
-        type: 'T,Green,C,No',
-        content: "NAH, THAT CAN'T BE ME!"
-      }
-    ]
-  },
-  // question #14
-  {
-    question: 'I make decisions with my heart.',
-    answers: [
-      {
-        // briggs, color, letter
-        type: 'F,Blue,B',
-        content: 'YEP! THAT IS ME!'
-      },
-      {
-        type: ' ',
-        content: 'I HAVE NO IDEA!'
-      },
-      {
-        type: 'F,Blue,B,No',
-        content: "NAH, THAT CAN'T BE ME!"
-      }
-    ]
-  },
-  // question #15
-  {
-    question: 'I learn best by seeing step by step instructions.',
-    answers: [
-      {
-        // briggs, color, letter
-        type: 'S,Brown,D',
-        content: 'YEP! THAT IS ME!'
-      },
-      {
-        type: ' ',
-        content: 'I HAVE NO IDEA!'
-      },
-      {
-        type: 'S,Brown,D,No',
-        content: "NAH, THAT CAN'T BE ME!"
-      }
-    ]
-  },  
+ 
 ]
 
 export default quizQuestions
