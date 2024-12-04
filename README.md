@@ -33,7 +33,5 @@ src
 │   └── Footer.js        # Footer with links  
 ├── assets               # Images, icons, and static files  
 ├── styles               # CSS files for styling  
-└── App.js               # Main application logic  
+└── App.js               # Main application logic
 
-
-<h1>Thank you for visiting....</h1>
